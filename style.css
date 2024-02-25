@@ -1,0 +1,304 @@
+/* /* body{
+    background-color:#1f2666;
+} */
+
+body{
+    font-family: sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(5, 15, 24);
+    font-weight: 10%;
+    color: white;
+    
+}
+
+nav{
+
+    margin-left: 120px;
+    
+    font-size: x-small;
+    
+
+    
+
+}
+.techstudioicon img{
+    width: 20px;
+    opacity: 0.9;
+}
+.techstudioicon{
+    position: relative;
+    top: -20px;
+}
+
+
+
+.part1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+    
+}
+.Techh{
+
+    margin-left: 10px;
+    position: relative;
+    top: -30px
+
+}
+
+.Techh p{
+    font-size: x-small;
+    color: white;
+    opacity: 0.8;
+}
+
+.homehero img{
+    width: 100%;
+}
+
+div h3{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.section p{
+    text-align: center;
+    font-weight: light;
+    color: white;
+    font-size: small;
+}
+
+.section{
+    margin-top: 60px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin-block: 5px;
+    border-radius: 7px;
+    border: none;
+    
+}
+.Explore, .Login{
+    text-align: center;
+}
+.Explore button{
+    background-color: rgba(42, 138, 228, 0.678);
+    color: white;
+    font-size: small;
+    
+    
+    
+}
+
+
+.Login button{
+    background-color: #1f2666;
+    color: white;
+    outline: solid;
+    outline-width: 1px;
+    
+    
+}
+
+body{
+    background-color:#1f2666;
+}
+
+.button1:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+.Login2:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+header nav a{
+    position: relative;
+    top: 5px;
+}
+header{
+    position: sticky;
+    top: 20px;
+    background-color: #1f2666;
+}
+section img{
+    width: 30px;
+    
+}
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 5%;
+}
+
+
+
+@media (min-width: 425px) {
+    nav a{
+        text-decoration: none;
+        color: rgb(5, 15, 24);
+        font-weight: 10%;
+        color: white;
+        margin-left: 20px;
+        
+    }
+    header nav a{
+        margin-right: 10px;
+        position: relative;
+        top: 10px;
+        right: ;
+    }
+    header{
+        position: sticky;
+        top: 10px;
+        background-color: #1f2666;
+       }
+}
+
+@media (min-width: 768px) {
+    nav a{
+        text-decoration: none;
+        color: rgb(5, 15, 24);
+        font-weight: bold;
+        font-size: small;
+        color: white;
+        margin-left: 35px;
+        
+        
+    }
+    
+    
+    .techstudioicon img{
+        width: 30px;
+        opacity: 0.9;
+    }
+    .techstudioicon{
+        position: relative;
+        top: -10px;
+    }
+    .part1{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Techh{
+
+        margin-left: 10px;
+        position: relative;
+        top: -20px
+        
+        
+    
+    }
+    .Techh p{
+        font-size: small;
+        color: white;
+        font-weight: 50;
+        opacity: 0.7;
+    }
+    nav{
+        
+        text-align: center;
+        
+    }
+    .part1{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    header nav a{
+        margin-right: 30px;
+        position: relative;
+        top: 20px;
+        right: 10%;
+    }
+    
+   header{
+    position: sticky;
+    top: 20px;
+    background-color: #1f2666;
+   }
+  
+   .section2{
+    position: relative;
+    bottom: -30px;
+
+   }
+
+   div h3{
+    font-size: 2rem;
+   }
+   .Explore, .Login{
+    display: inline;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+    left: 25%;
+   }
+   .homehero img{
+    width: 80%;
+    margin-left: 45px;
+    
+    
+   }
+  
+
+}
+@media(min-width: 1024px) {
+  .section{
+    display: flex;
+    flex-direction: row-reverse;
+   position: relative;
+   top: 80px;
+  }
+  .homehero img{
+    width: 85%;
+    margin-left: 45px;
+    
+   }
+   .Explore, .Login{
+    position: relative;
+    left: 18%;
+   }
+   .section2{
+    position: relative;
+    left: 10px;
+
+   }
+
+   @media(min-width: 1440px) {
+    div h3{
+        font-size: 3rem;
+       }
+       .Explore, .Login{
+        position: relative;
+        left: 23%;
+        
+       }
+    
+       .whatsapp{
+        position: fixed;
+        bottom: 400px;
+        right: 5%;
+    }
+    section img{
+        width: 50px;
+        
+    }
+
+    
+
+    }
+    
+
+
+}
